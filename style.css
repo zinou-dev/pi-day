@@ -1,0 +1,312 @@
+    @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Almarai:wght@300;400;700;800&family=Cairo&family=Montserrat:wght@100;200;300;400;500&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
+.head {
+    height: 70px;
+    background-color: #323232;
+    margin: -8px;
+    position: fixed;
+    width:100%;
+    z-index: 999999999999999999999999;
+}
+.headimg{
+    height: 70px;
+    
+}
+nav {
+    position: relative;
+    left: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration: none;
+}
+.home{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    left: -83px;
+    font-family: sans-serif;
+    top: -57px;
+    font-size: 38px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.home:hover{
+    color: white;
+    transition:0.5s;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    width:0;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #e1d9cc;
+    transition: 0.4s;
+}
+.home:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #e1d9cc;
+transition: 0.4s;
+}
+.about{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -70px;
+    font-family: sans-serif;
+    font-size: 40px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.about:hover{
+    color: white;
+    transition: 0.5s;
+}
+.about::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:00;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #e1d9cc;
+    transition: 0.4s;
+}
+.about:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #e1d9cc;
+    transition: 0.4s;
+}
+.contact{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -61px;
+    font-family: sans-serif;
+    font-size: 36px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.contact:hover{
+    color: white;
+}
+.contact::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:0;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    transition:0.4s;
+    background-color: #e1d9cc;
+}
+.contact:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #e1d9cc;
+    transition: 0.4s;
+}
+    
+.mosabaka {
+    font-size: 46px;
+    position: absolute;
+    top: 167px;
+    right: 5px;
+    text-align: center;
+    line-height: 78px;
+    text-shadow: 0px 0px 21px;
+    font-family: 'Alexandria';
+
+}
+.ishraf {
+    font-size: 46px;
+    position: absolute;
+    top: 674px;
+    right: 5px;
+    text-align: center;
+    line-height: 78px;
+    text-shadow: 0px 0px 21px;
+    font-family: 'Alexandria';
+}
+.nouari{
+    font-size: 26px;
+    position: absolute;
+    top: 900px;
+    right: 5px;
+    text-align: center;
+    line-height: 78px;
+    text-shadow: 0px 0px 21px;
+    font-family: 'Alexandria';
+}
+.m-d {
+    font-size: 32px;
+    position: absolute;
+    top: 466px;
+    text-align: center;
+    text-shadow: 0px 0px 21px;
+    font-family: 'Alexandria';
+}
+.begin {
+    position: relative;
+    top: 1030px;
+    width: -webkit-fill-available;
+    margin: -8px;
+    box-shadow: 0px 10px 100px 0px;
+}
+
+.what {
+    font-size: 32px;
+    position: absolute;
+    top: 1007px;
+    color: #f4f3f1;
+    text-align: center;
+    text-shadow: 0px 0px 21px;
+    font-family: 'Alexandria';
+    }
+    .تعريف {
+        font-family: 'Alexandria';
+        position: relative;
+        top: 1042px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .middle {
+        position: relative;
+        top: 1178px;
+        width: -webkit-fill-available;
+        margin: -4px;
+        box-shadow: 0px 10px 100px 0px;
+    }
+    .when {
+        font-size: 32px;
+        position: absolute;
+        top: 1701px;
+        color: #e1d9cc;
+        text-align: center;
+        text-shadow: 0px 0px 21px;
+        font-family: 'Alexandria';
+    }    
+    .history{
+            font-family: 'Alexandria';
+            position: relative;
+            top: 1193px;
+            font-size: 25px;
+            line-height: 33px;
+        
+    }
+    .العصرالحديث {
+        position: relative;
+        top: 1312px;
+        width: -webkit-fill-available;
+        margin: -8px;
+        box-shadow: 0px 10px 100px 0px;
+    }
+    .new {
+        font-size: 32px;
+        position: absolute;
+        top: 2444px;
+        color: #e1d9cc;
+        text-align: center;
+        text-shadow: 0px 0px 21px;
+        font-family: 'Alexandria';
+    }
+    .now {
+        font-family: 'Alexandria';
+        position: relative;
+        top: 1324px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .write-img{
+        position: relative;
+        top: 1512px;
+        width: -webkit-fill-available;
+        margin: -8px;
+        box-shadow: 0px 10px 100px 0px;
+    }
+    .how-write {
+        font-size: 32px;
+        position: absolute;
+        top: 3043px;
+        color: #c5723c;
+        text-align: center;
+        text-shadow: 0px 0px 21px;
+        font-family: 'Alexandria';
+    }
+    .here {
+        font-family: 'Alexandria';
+        position: relative;
+        top: 1522px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .life-img{
+        position: relative;
+        top: 1712px;
+        width: -webkit-fill-available;
+        margin: -8px;
+        box-shadow: 0px 10px 100px 0px;
+    }
+    .مجالات{
+        font-family: 'Alexandria';
+        position: relative;
+        top: 1730px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .news {
+        font-size: 32px;
+        position: absolute;
+        top: 4703px;
+        color: #172321;
+        text-align: center;
+        text-shadow: 0px 0px 6px #61b1e0;
+        font-family: 'Alexandria';
+    }
+    .end-img {
+        position: relative;
+        top: 1815px;
+        width: -webkit-fill-available;
+        margin: 8px;
+        box-shadow: 0px 10px 100px 0px;
+    }
+    .end {
+        font-size: 32px;
+        position: absolute;
+        top: 6666px;
+        left: 137px;
+        color: #ffffff;
+        text-shadow: 0px 11px 3px #181818;
+        font-family: 'Alexandria';
+    }
+    .ending {
+        font-family: 'Alexandria';
+        position: relative;
+        top: 1817px;
+        font-size: 25px;
+        line-height: 33px;
+    }
